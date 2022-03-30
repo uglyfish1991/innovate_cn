@@ -1,0 +1,54 @@
+@import "colours";
+$myFont: monospace;
+
+@mixin heading{
+    font-family: $headingFont;
+    color: $accentColour;
+    text-align: center;
+}
+
+@mixin fonts{
+    font-family: $font;
+    color: $specialFontColor;
+    font-size: 1.1em;
+
+}
+
+body{
+    background-color: $backgroundColour;
+    margin: 0px;
+}
+
+h1 {
+    @include heading;
+    margin-top: 0px;
+    font-size: 3em;
+}
+
+.content{
+    @include fonts;
+    width: 70%;
+    border-top: $accentTwo 10px solid;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $boxColour;
+    padding: 0px 10px 0px 10px;
+}
+
+.inner{
+    @include fonts;
+    width: 60%;
+    background-color: $quoteBox;
+    border-top: $accentColour 10px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.inner2 {
+    @extend .inner;
+    border-bottom: $accentThree 10px solid;
+}
