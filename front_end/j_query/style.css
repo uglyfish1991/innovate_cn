@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Major+Mono+Display&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(187, 187, 187);
+}
+
+h1{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.5em;
+}
+
+button{
+    background-color: #dbdbdb;
+    padding: 10px;
+    border: 0px;
+    border-right: 5px solid pink;
+}
+
+button:hover{
+    background-color: #dbdbdb;
+    padding: 10px;
+    border: 0px;
+    border-right: 5px solid rgb(252, 144, 4);
+}
+
+.content{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    width:70%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 251, 247);
+    border-top: 10px solid pink;
+    padding: 1%;
+}
+
+.change_title{
+    color:rgb(252, 144, 4)
+}
+
+.dark-mode{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    width:70%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(43, 43, 43);
+    border-top: 10px solid pink;
+    padding: 1%;
+}
